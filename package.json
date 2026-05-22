@@ -1,0 +1,22 @@
+{
+  "name": "lowwatt-n8n-nodes",
+  "version": "0.1.0",
+  "description": "Premium n8n community nodes by Low Watt Labs",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm test --workspaces",
+    "link": "npm run link --workspaces",
+    "clean": "rm -rf nodes/*/dist"
+  },
+  "workspaces": [
+    "nodes/@lowwattlabs/n8n-nodes-clamav",
+    "nodes/@lowwattlabs/n8n-nodes-uptime-kuma",
+    "nodes/@lowwattlabs/n8n-nodes-calcom"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jchandler187/lowwatt-n8n-nodes.git"
+  }
+}

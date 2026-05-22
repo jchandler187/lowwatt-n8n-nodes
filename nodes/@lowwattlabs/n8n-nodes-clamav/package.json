@@ -1,0 +1,33 @@
+{
+  "name": "@lowwattlabs/n8n-nodes-clamav",
+  "version": "0.1.0",
+  "description": "n8n community node for ClamAV antivirus scanning",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "link": "npm link"
+  },
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/ClamavApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Clamav/Clamav.node.js"
+    ]
+  },
+  "keywords": ["n8n", "n8n-community-node", "clamav", "antivirus", "malware", "scan"],
+  "author": "Low Watt Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jchandler187/lowwatt-n8n-nodes.git",
+    "directory": "nodes/@lowwattlabs/n8n-nodes-clamav"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0",
+    "n8n-workflow": "^1.0.0"
+  }
+}
