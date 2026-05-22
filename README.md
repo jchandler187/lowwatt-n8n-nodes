@@ -1,4 +1,4 @@
-# Low Watt Labs — n8n Community Nodes
+# ⚡ Low Watt Labs — n8n Community Nodes
 
 Premium n8n community nodes built by Low Watt Labs. Each node provides a free tier for basic operations and a premium tier for advanced features.
 

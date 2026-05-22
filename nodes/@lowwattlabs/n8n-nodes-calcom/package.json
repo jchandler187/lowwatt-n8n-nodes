@@ -1,7 +1,7 @@
 {
   "name": "@lowwattlabs/n8n-nodes-calcom",
   "version": "0.1.0",
-  "description": "n8n community node for Cal.com booking management (v2 API)",
+  "description": "⚡ Low Watt Labs — n8n community node for Cal.com booking management (v2 API)",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -17,7 +17,14 @@
       "dist/nodes/Calcom/Calcom.node.js"
     ]
   },
-  "keywords": ["n8n", "n8n-community-node", "calcom", "cal", "booking", "scheduling"],
+  "keywords": [
+    "n8n",
+    "n8n-community-node",
+    "calcom",
+    "cal",
+    "booking",
+    "scheduling"
+  ],
   "author": "Low Watt Labs",
   "license": "MIT",
   "repository": {

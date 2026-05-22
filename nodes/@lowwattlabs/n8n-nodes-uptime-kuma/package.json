@@ -1,7 +1,7 @@
 {
   "name": "@lowwattlabs/n8n-nodes-uptime-kuma",
   "version": "0.1.0",
-  "description": "n8n community node for Uptime Kuma monitoring (full v2 API)",
+  "description": "⚡ Low Watt Labs — n8n community node for Uptime Kuma monitoring (full v2 API)",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -17,7 +17,13 @@
       "dist/nodes/UptimeKuma/UptimeKuma.node.js"
     ]
   },
-  "keywords": ["n8n", "n8n-community-node", "uptime-kuma", "monitoring", "status"],
+  "keywords": [
+    "n8n",
+    "n8n-community-node",
+    "uptime-kuma",
+    "monitoring",
+    "status"
+  ],
   "author": "Low Watt Labs",
   "license": "MIT",
   "repository": {
